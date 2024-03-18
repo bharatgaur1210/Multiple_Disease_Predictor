@@ -31,20 +31,20 @@ st.subheader("Information Section")
 st.subheader("Heart")
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.image("C:/Users/HP/Desktop/MP/images/heart.png", caption="Heart")
+    st.image("heart.png", caption="Heart")
 with col2:
-    st.image("C:/Users/HP/Desktop/MP/images/risk_heart.png", caption="Risk Factors of Heart Disease")
+    st.image("risk_heart.png", caption="Risk Factors of Heart Disease")
 with col3:
-    st.image("C:/Users/HP/Desktop/MP/images/prevent_heart.png", caption="Prevention of Heart Disease")
+    st.image("prevent_heart.png", caption="Prevention of Heart Disease")
 
 st.subheader("Diabetics")
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.image("C:/Users/HP/Desktop/MP/images/diabetic.png", caption="Diabetic")
+    st.image("diabetic.png", caption="Diabetic")
 with col2:
-    st.image("C:/Users/HP/Desktop/MP/images/diabetic_risk.png", caption="Risk Factors of Diabetic Disease")
+    st.image("diabetic_risk.png", caption="Risk Factors of Diabetic Disease")
 with col3:
-    st.image("C:/Users/HP/Desktop/MP/images/diabetic_prevention.png", caption="Prevention of Diabetic Disease")
+    st.image("diabetic_prevention.png", caption="Prevention of Diabetic Disease")
 
     
 
