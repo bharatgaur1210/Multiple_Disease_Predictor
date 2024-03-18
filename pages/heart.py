@@ -9,7 +9,7 @@ st.subheader("The most common heart disease is coronary artery disease (narrow o
 st.subheader("Other heart diseases include congestive heart failure, heart rhythm problems, congenital heart disease (heart disease at birth), and endocarditis (inflamed inner layer of the heart). Also called cardiovascular disease.")
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/HP/Desktop/MP/Sav_files/heart_trained.sav', 'rb'))
+loaded_model = pickle.load(open('heart_trained.sav', 'rb'))
 
 def heart_prediction(input_data):
     # Convert input strings to numeric values
