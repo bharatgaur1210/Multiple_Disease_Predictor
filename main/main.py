@@ -1,5 +1,7 @@
 import streamlit as st 
-import pickle 
+import pickle
+from sklearn import svm 
+from sklearn.preprocessing import StandardScaler
 
 st.set_page_config(layout="wide",initial_sidebar_state="collapsed")
 
