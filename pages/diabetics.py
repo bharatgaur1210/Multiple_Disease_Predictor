@@ -9,8 +9,8 @@ st.subheader("Diabetes usually refers to diabetes mellitus in which there is als
 st.subheader("Hyperglycaemia, also called raised blood glucose or raised blood sugar, is a common effect of uncontrolled diabetes and over time leads to serious damage to many of the body's systems, especially the nerves and blood vessels.")
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/HP/Desktop/MP/Sav_files/diabetic_trained.sav', 'rb'))
-scaler = pickle.load(open('C:/Users/HP/Desktop/MP/Sav_files/scalar.sav', 'rb')) 
+loaded_model = pickle.load(open('diabetic_trained.sav', 'rb'))
+scaler = pickle.load(open('scalar.sav', 'rb')) 
 
 def diabetes_prediction(input_data):
    
